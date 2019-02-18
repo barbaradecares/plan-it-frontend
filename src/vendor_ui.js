@@ -236,6 +236,7 @@ myQuotesImg.addEventListener("click", function() {
 
 const renderVendorsInterface = () => {
   contentDiv.innerHTML = "";
+
   contentDiv.append(vendorNav);
   console.log("hiii");
   renderVendorQuotes("p");
@@ -244,6 +245,7 @@ const renderVendorsInterface = () => {
 const renderMyVendorProfile = () => {
   contentDiv.innerHTML = "";
   contentDiv.append(vendorNav);
+
   const name = document.createElement("h3");
   name.innerHTML = `${currentUser.name}</b>`;
   const email = document.createElement("p");

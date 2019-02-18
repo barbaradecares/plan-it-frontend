@@ -105,6 +105,11 @@ const renderAvailableVendors = function() {
   }
 
   contentDiv.innerHTML = "";
+  contentDiv.innerHTML = "<h1> Customer Portal </h1>";
+  // contentDiv.innerText = (
+  //   <p>Please select a service from the available vendors</p>
+  // );
+
   const vendorsListedSection = document.createElement("div");
   vendorsListedSection.id = "vendor-section";
   vendorsListedSection.className = "container";
@@ -135,7 +140,7 @@ const renderAvailableVendors = function() {
     vendorName.innerHTML = vendor.name;
     vendorService.innerHTML = vendor.service;
     vendorLogo.src = vendor.logo_img;
-    vendorLogo.className = "rounded-circle"
+    vendorLogo.className = "rounded-circle";
     vendorInfoButton.innerHTML = "More Information";
     vendorInfoButton.addEventListener("click", function() {
       console.log("test");
@@ -148,7 +153,7 @@ const renderAvailableVendors = function() {
     contentDiv.append(vendorsListedSection);
     vendorsListedSection.append(vendorsListedRow);
     vendorsListedRow.append(vendorDiv);
-    vendorDiv.append(vendorLogo,vendorName, vendorService, vendorInfoButton);
+    vendorDiv.append(vendorLogo, vendorName, vendorService, vendorInfoButton);
     // vendorDiv.append(vendorService);
     // vendorDiv.append(vendorLogo);
     // vendorDiv.append(vendorInfoButton);
@@ -297,7 +302,7 @@ const renderMyQuotes = () => {
 
     const imageQuote = document.createElement("img");
     imageQuote.id = "vendor-logo";
-    imageQuote.className = "rounded-circle"
+    imageQuote.className = "rounded-circle";
     imageQuote.src = myQuoteVendor[0].logo_img;
     divQuote.append(imageQuote);
 

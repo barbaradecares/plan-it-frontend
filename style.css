@@ -5,11 +5,9 @@
   margin-bottom: 50px;
 }
 
-
-
 #filter-img:hover,
 #filter-img:focus {
-  background-color: white;;
+  background-color: black;
 }
 
 /* .container{
@@ -20,24 +18,23 @@ body {
   background-color: lightblue;
 }
 
-#vendor-logo{
-    height: 100px;
-    width: 100px;
-    margin-top: 15px;
-    margin-bottom: 15px;
-
+#vendor-logo {
+  height: 100px;
+  width: 100px;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
-#topDiv{
-  background-color: #985e6d; 
+#topDiv {
+  background-color: #985e6d;
 }
 
-#vendor-div{
-  text-align:center;
+#vendor-div {
+  text-align: center;
   background-color: #f7f8f8;
   /* img-: center; */
   width: 250px;
-  
+
   margin-top: 15px;
   margin-bottom: 15px;
   padding-top: 25px;
@@ -58,25 +55,20 @@ body {
 .modal {
   display: none; /* Hidden by default */
   margin: auto;
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
+  position: absolute; /* Stay in place */
+  z-index: 10040; /* Sit on top */
   left: 0;
-  top: 0;
+  top: 50px;
   width: 50%; /* Full width */
+  overflow-y: auto;
   height: window - 200px; /* Full height */
   /* overflow: enable; Enable scroll if needed */
   /* background-color: rgb(0, 0, 0); /* Fallback color */
-  /* background-color: rgba(0, 0, 0, 0.4); Black w/ opacity */ */
-  /* max-height: 100vh; */
-  overflow-y: auto;
+  /* background-color: rgba(0, 0, 0, 0.4); Black w/ opacity */
+  /*max-height: 100vh; */
 }
 
-
-
-
-Modal Content/Box */
-.modal-content {
-  
+Modal Content/Box */ .modal-content {
   background-color: #fefefe;
   margin: 15% auto; /* 15% from the top and centered */
   padding: 20px;
@@ -114,33 +106,26 @@ Modal Content/Box */
   position: relative;
   bottom: 25px;
   padding-top: 10px;
-  
 
   /* Full height */
   height: 400px;
 
   /* Center and scale the image nicely */
- background-position: center;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
-.heading > h1{
+.heading > h1 {
   text-align: center;
-  margin-top: 175px;
-  color: white;
-  font-family: 'Bungee Shade', cursive;
-  font-size: 75px;
-
-  
+  margin-top: 160px;
+  color: black;
+  font-family: "Bungee Shade", cursive;
+  font-size: 90px;
 }
 
-.heading > p{
+.heading > p {
   text-align: center;
-  font-size: 30px;
-  color: white;
-  font-family: 'PT Sans Narrow', sans-serif;
-  
-  
+  font-size: 35px;
+  color: deeppink;
+  font-family: "Emilys Candy", cursive;
 }
-
-
